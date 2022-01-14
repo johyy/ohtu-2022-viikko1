@@ -1,1 +1,0 @@
-Toisessa kloonissa tehty lisäys.
