@@ -73,5 +73,5 @@ class TestVarasto(unittest.TestCase):
     def test_virheellinen_alku_saldo(self):
         virheellinen_varasto = Varasto(10, alku_saldo=-2)
 
-        self.assertAlmostEqual(virheellinen_varasto.saldo, 0)
+        self.assertAlmostEqual(virheellinen_varasto.saldo, 200)
         
