@@ -4,6 +4,8 @@ class Varasto:
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
 
+        alku_saldo = max(alku_saldo, 0)
+
         self.saldo = 0.0
         if alku_saldo <= tilavuus:
             # mahtuu
