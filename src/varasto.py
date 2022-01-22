@@ -3,6 +3,8 @@ class Varasto:
         self.tilavuus = 0.0
         if tilavuus > 0.0:
             self.tilavuus = tilavuus
+            if tilavuus == 0:
+                self.saldo = 0
 
         alku_saldo = max(alku_saldo, 0)
 
